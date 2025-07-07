@@ -12,7 +12,7 @@ $greeting = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST["name"])) {
         $name = htmlspecialchars($_POST["name"]);
-        $greeting = "Hello, " . $name . "! Welcome to PHP!";
+        $greeting = "Hello, " . $name . "! Welcome to PHP its a web app check!";
     } else {
         $greeting = "Please enter your name.";
     }
